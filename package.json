@@ -1,8 +1,9 @@
 {
   "name": "fwap",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "wrapper code for browser fetch (fetch wrapper..fwap)",
   "main": "build/index.js",
+  "types": "build/index.d.ts",
   "scripts": {
     "test": "jest --watch",
     "build": "rimraf ./build && tsc",
@@ -11,7 +12,13 @@
     "lintfix": "eslint . --ext .ts --fix"
   },
   "author": "denisos",
+  "keywords": ["fetch", "fetch wrapper"],
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/denisos/fwap.git"
+  },
+  "homepage": "https://github.com/denisos/fwap#readme",
   "devDependencies": {
     "@babel/preset-env": "^7.15.0",
     "@babel/preset-typescript": "^7.15.0",
